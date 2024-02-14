@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive 3D Parallax Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a>
+      <img src="logo.png" alt="Travalo" class="logo">
+    </a>
+      <ul>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#">Sign up</a>
+        </li>
+        <li class="search">
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="hamburger">
+          <a href="#">
+            <div class="bar"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="vignette"></div>
+    <img src="background.png" data-speedx="0.12" data-speedy="0.12" class="parallax bg-img">
+    <img src="fog_7.png" data-speedx="0.26" data-speedy="0.31" class="parallax fog-7">
+    <img src="mountain_10.png" data-speedx="0.1" data-speedy="0.15" class="parallax mountain-10 ">
+    <img src="fog_6.png" data-speedx="0.25" data-speedy="0.20" class="parallax fog-6">
+    <img src="mountain_9.png" data-speedx="0.125" data-speedy="0.155" class="parallax mountain-9">
+    <img src="mountain_8.png" data-speedx="0.1" data-speedy="0.11" class="parallax mountain-8">
+    <img src="fog_5.png" data-speedx="0.16" data-speedy="0.10" class="parallax fog-5">
+    <img src="mountain_7.png" data-speedx="0.1" data-speedy="0.1" class="parallax mountain-7">
+    <div class="text parallax"  data-speedx="0.07" data-speedy="0.07">
+      <span><h2 class="M">M</h2><h2 class="A">A</h2><h2 class="R">R</h2><h2 class="Q">Q</h2><h2 class="U">U</h2><h2 class="E">E</h2><h2 class="e">E</h2></span>
+      <h1>SOLUTION</h1>
+    </div>
+    <img src="mountain_6.png" data-speedx="0.065" data-speedy="0.05" class="parallax mountain-6">
+    <img src="fog_4.png" data-speedx="0.135" data-speedy="0.32" class="parallax fog-4">
+    <img src="mountain_5.png" data-speedx="0.08" data-speedy="0.008" class="parallax mountain-5">
+    <img src="fog_3.png" data-speedx="0.11" data-speedy="0.018" class="parallax fog-3">
+    <img src="mountain_4.png"data-speedx="0.059" data-speedy="0.024" class="parallax mountain-4">
+    <img src="mountain_3.png" data-speedx="0.008" data-speedy="0.018" class="parallax mountain-3">
+    <img src="fog_2.png" data-speedx="0.15" data-speedy="0.0115" class="parallax fog-2">
+    <img src="mountain_2.png" data-speedx="0.0235" data-speedy="0.0013" class="parallax mountain-2">
+    <img src="mountain_1.png" data-speedx="0.007" data-speedy="0.018" class="parallax mountain-1">
+    <img src="sun_rays.png"  class="parallax sun-rays">
+    <img src="black_shadow.png"  class="parallax black-shadow">
+    <img src="fog_1.png" data-speedx="0.12" data-speedy="0.01" class="parallax fog-1">
+  </main>
+
+
+  <script src="js/gsap.min.js"></script>
+  <script src="app.js" defer></script>
+</body>
+
+</html>
